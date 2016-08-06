@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <!--=============== basic  ===============-->
+        <meta charset="UTF-8">
+        <title>Presentazione Viale19</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <!--=============== css  ===============-->	
+        <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <!--=============== favicons ===============-->
+        <link rel="shortcut icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <!-- loader -->
+        <div class="loader">
+            <div id="movingBallG">
+                <div class="movingBallLineG"></div>
+                <div id="movingBallG_1" class="movingBallG"></div>
+            </div>
+        </div>
+        <!-- loader end -->
+    
+        <!--================= main start ================-->
+        <div id="main">
+         <canvas class="particular"></canvas>
+			<div class="iframe-holder">
+				<iframe src="site/index.html"></iframe>									
+			</div>	
+            <div class="logo-holder">
+                <div class="logo-inner">
+                    <img src="images/logo.png" alt="">
+                    <h3> Presentazione Sviluppo Web<br><strong> Viale19 </strong></h3>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="box-inner">
+                     
+                        <div class="box">
+                            <h4>Sito internet</h4>
+                            <ul>
+                                <li><a href="../index2.html" target="_blank">www.viale19.it</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h4>Video</h4>
+                            <ul>
+                                <li><a href="../404.html" target="_blank">In preparazione</a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h4>Cartellonistica</h4>
+           
+                            <ul>
+                                <li><a href="../404.html" target="_blank">In preparazione</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main end --> 
+        <!--=============== scripts  ===============-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+</html>
