@@ -706,7 +706,7 @@ header:before {
 	height:auto;
 }
 .dynamic-title {
-	display:none;
+	display:inline-table;
 }
 /*------ navigation  ------------------------------------------------*/
 .nav-holder {
