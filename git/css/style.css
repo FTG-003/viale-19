@@ -712,7 +712,7 @@ header:before {
 .nav-holder {
 	float:right;
 	position:relative;
-	top2:22px;
+	top: 22px;
 	left:50px;
 }
 nav {
