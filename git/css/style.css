@@ -4083,11 +4083,7 @@ p {
 }
 }
 .sketchfab-embed-wrapper
-{
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
+
 
 /* 16x9 Aspect Ratio */
 .intrinsic-container-16x9 {
