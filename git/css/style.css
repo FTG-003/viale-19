@@ -1,9 +1,9 @@
 @charset "utf-8";
 /*======================================
  [ -Main Stylesheet-
-  Sito: Viale19
+  Theme: Monolit
   Version: 1.0
-  Last change: 24/07/2016 ]
+  Last change: 15/04/2016 ]
   	+++Fonts +++
 	++++General Styles++++
 	++++Typography ++++
@@ -416,7 +416,7 @@ section {
 	color:#fff;
 	border:2px solid #fff;
 }
-.anim-button i , .anim-button span    {
+.anim-button i , .anim-button span {
 	-webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -o-transition: all 200ms linear;
@@ -519,14 +519,6 @@ section {
 	float:left;
 	width:100%;
 }
-}
-.parallax-box1 {
-	position:relative;
-	left:-20%;
-	z-index:-1;
-	float:right;;
-	width:100%;
-}
 .parallax-box.slider-box {
 	z-index:3;
 }
@@ -572,8 +564,7 @@ section {
     width: 100%;
     color: #000;
     font-weight: bold;
-
-}
+}  
 .section-title.dec-title {
 	padding-bottom:50px;
 }
@@ -706,14 +697,15 @@ header:before {
 	height:auto;
 }
 .dynamic-title {
-	display:inline-table;
+	display:none;
 }
+/*------ navigation  ------------------------------------------------*/
 .nav-holder {
 	float:right;
 	position:relative;
 	top:22px;
 	left:50px;
-}   
+}
 nav {
 	position:relative;
 	float:left;
@@ -726,7 +718,7 @@ nav li{
 nav li ul {
 	margin: 30px 0 0 0;
 	opacity: 0;
-	visibility:hidden;
+	visibility: hidden;
 	position: absolute;
 	min-width:190px;
 	padding-top: 58px;
@@ -1929,11 +1921,7 @@ article {
 	height:100%;
 }
 .fl-l {
-	float:left; 
-}
-.fl-r {
-	float:right;
-    
+	float:left;
 }
 .flow-gallery:before {
 	content:'';
@@ -3678,7 +3666,7 @@ header {
 	height:40px;
 	border:1px solid rgba(255,255,255,0.21);
 	padding:13px 6px 6px 6px;
-	position:absolute;
+	position:relative;
 	margin-top:9px;
 	cursor:pointer;
 }
@@ -4080,49 +4068,4 @@ p {
 	-webkit-background-size:cover;
 	background-position:center;
 }
-}
-.sketchfab-embed-wrapper
-
-
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
-
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
-
-.intrinsic-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.intrinsic-container {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-}
-
-/* 16x9 Aspect Ratio */
-.intrinsic-container-16x9 {
-  padding-bottom: 56.25%;
-}
-
-/* 4x3 Aspect Ratio */
-.intrinsic-container-4x3 {
-  padding-bottom: 75%;
-}
-
-.intrinsic-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
 }
