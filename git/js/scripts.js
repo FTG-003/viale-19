@@ -705,16 +705,12 @@ var mobileHover = function () {
 mobileHover();
 }
 function contanimshow() {
-	var a = window.location.href;
-	var b = $(".dynamic-title").text();
-	var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
-	$(".footer-title a").attr("href", a);
+
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
     {
-    	$(".footer-title a").html(b);  
+        $(".footer-title a").html(b);
     }
-    else 
+    else
     {
       $(".footer-title a").html(b).shuffleLetters({});
     }
