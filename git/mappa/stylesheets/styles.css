@@ -15,10 +15,13 @@
  *
  * -------------------------------------------------------------------------------------------------
  */
+/** overflow: hidden;
+ */
+
 BODY {
 	font-size: 13px; /* Override typography */
 	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
-	font-family: 'Nunito', sans-serif; overflow: hidden;
+	font-family: 'Nunito', sans-serif; 
 }
 }
 
