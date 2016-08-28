@@ -48,11 +48,19 @@ document.write('<scr'+'ipt type="text/javascript" src="https://maps.googleapis.c
                 
 				[45.697879, 9.667692, 'images/marker_blue.png', 'Cinema San Marco', 'Panagi Tsaldari 140, Athina, Greece', false, '1'],
 				[45.696590, 9.673035, 'images/marker_blue.png', 'Cinema Capitol', 'Τροίας 34, Αθήνα, Greece', false, '1'],
+                [45.697734, 9.660745, 'images/marker_blue.png', 'Bilanciamento', 'Greece', false, '1'],
 				[45.696351, 9.683271, 'images/marker_blue.png', 'Cinema Teatro Del Borgo', 'Megalou Alexandrou ke Kalipsous, Kallithea, Greece', false, '1'],
 				[45.700411, 9.673958, 'images/marker_green.png', 'Museo Adriano Bernareggi', 'Πειραιώς 100, Αθήνα, Greece', false, '2'],
 				[45.704293, 9.675803, 'images/marker_green.png', 'Accademia Carrara Museo', 'Greece', false, '2'],
 				[45.703513, 9.676103, 'images/marker_green.png', 'Galleria Arte Moderna e Contemporanea di Bergamo', 'Μιχαλακοπούλου 1, Αθήνα, Greece', false, '2'],
-			
+			    [45.697511, 9.668094, 'images/bank.png', 'Banca dellaBergamasca', 'Greece', false, '3'],
+			    [45.695960, 9.668780, 'images/bank.png', 'Banca di Italia', 'Greece', false, '3'],
+                [45.697863, 9.669488, 'images/bank.png', 'Banca di Italia', 'Greece', false, '3'],
+                [45.697044, 9.671187, 'images/bank.png', 'Banca di Credito Cooperativo di Calcio e di Covo - Società cooperativa', 'Greece', false, '3'],
+                [45.695156, 9.669030, 'images/bank.png', 'popolare di Bergamo', 'Greece', false, '3'],
+            
+                
+                
 			],
 			origins: [
 				['45.700825', '9.665110'],  
