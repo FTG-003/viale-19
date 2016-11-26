@@ -28,7 +28,7 @@
 	++++Responsive ++++
 */
 /*-------------Import fonts ---------------------------------------*/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,200,100,400italic,700,900|Muli&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,300,200,100,400italic,700,900|Muli&subset=latin,vietnamese,latin-ext,cyrillic,cyrillic-ext,greek-ext,greek);
 /*-------------General Style---------------------------------------*/
 html{
 	height:100%;
@@ -37,9 +37,10 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 14px;
 	color: #000;
 	background:#1B1B1B;
 	height:100%;
@@ -119,7 +120,7 @@ h6 {
 }
 p {
 	text-align:left;
-	font-size:13px;
+	font-size:14px;
 	line-height:24px;
 	padding-bottom:10px;
 }
@@ -373,7 +374,7 @@ blockquote p {
 	width:100%;
 	height:100%;
 	background:#000;
-	opacity:0.2;
+	opacity:0.1;
 }
 section {
 	float:left;
@@ -636,7 +637,7 @@ section {
 	left:0;
 	width:80px;
 	height:8px;
-	background:#d21515;
+    background:#ffb400;
 }
 .algn-right {
 	text-align:right;
@@ -896,7 +897,8 @@ nav li a:hover {
 	text-transform:uppercase;
 	font-weight:600;
 	letter-spacing:2px;
-	font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	padding-bottom:10px;
     position:relative;
 	z-index:12;
@@ -906,7 +908,7 @@ nav li a:hover {
 	font-size:18px;
 	text-transform:uppercase;
 	font-weight:200;
-	letter-spacing:18px;
+	letter-spacing:10px;
 	padding-left:6px;
 }
 .hero-wrap-item h3 a {
@@ -1175,7 +1177,8 @@ article {
 	width:100%;
 	float:left;
 	margin-bottom:4px;
-	font-family: 'Muli', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 	color:#000;
 	padding-left:10px;
  	font-weight:600;
@@ -2731,7 +2734,7 @@ footer.fixed-footer .footer-social li a:hover {
 	margin-bottom:30px;
 }
 .footer-item p , .footer-item  span  , .footer-item ul li a{
-	font-size:11px;
+	font-size:12px;
 	color:#fff;
 }
 .footer-item ul li {
@@ -2798,7 +2801,7 @@ footer.fixed-footer .footer-social li a:hover {
 	letter-spacing:1px;
 	font-size:12px;
 	overflow:hidden;
-	width:70px;
+	width:80px;
 	height:40px;
 	cursor:pointer;
 	text-align:right;
@@ -2994,7 +2997,7 @@ footer.fixed-footer .footer-social li a:hover {
 	top:50%;
 	left:-50%;
 	width:20%;
-	background:#d21515;
+    background:#fb9c2b;
 	height:6px;
 	margin-top:-3px;
 }
@@ -3037,7 +3040,7 @@ footer.fixed-footer .footer-social li a:hover {
 	left:0;
 	width:80px;
 	height:8px;
-	background:#d21515;
+    background:#fb9c2b;
 }
 .process-box2:before {
 	content:'';
