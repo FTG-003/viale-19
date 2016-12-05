@@ -47,8 +47,8 @@ document.write('<scr'+'ipt type="text/javascript" src="https://maps.googleapis.c
 			locations: [
                 
 				[45.697879, 9.667692, 'images/cinema.png', 'Cinema San Marco', 'Panagi Tsaldari 140, Athina, Greece', false, '1'],
-				[45.696590, 9.673035, 'images/marker_blue.png', 'Cinema Capitol', 'Τροίας 34, Αθήνα, Greece', false, '1'],
-                [45.697734, 9.660745, 'images/marker_blue.png', 'Bilanciamento', 'Greece', false, '1'],
+                [45.696590, 9.673035, 'images/cinema.png', 'Cinema Capitol', 'Τροίας 34, Αθήνα, Greece', false, '1'],
+                [45.697734, 9.660745, 'images/cinema.png', 'Bilanciamento', 'Greece', false, '1'],
 				[45.696351, 9.683271, 'images/cinema.png', 'Cinema Teatro Del Borgo', 'Megalou Alexandrou ke Kalipsous, Kallithea, Greece', false, '1'],
 				[45.700411, 9.673958, 'images/musei.png', 'Museo Adriano Bernareggi', 'Πειραιώς 100, Αθήνα, Greece', false, '2'],
 				[45.704293, 9.675803, 'images/musei.png', 'Accademia Carrara Museo', 'Greece', false, '2'],
