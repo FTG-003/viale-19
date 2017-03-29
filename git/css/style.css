@@ -637,7 +637,7 @@ section {
 	left:0;
 	width:80px;
 	height:8px;
-    background:#ffb400;
+    background:#ef0404;
 }
 .algn-right {
 	text-align:right;
@@ -2995,9 +2995,9 @@ footer.fixed-footer .footer-social li a:hover {
 	content:'';
 	position:absolute;
 	top:50%;
-	left:-50%;
+	left:-48%;
 	width:20%;
-    background:#fb9c2b;
+    background:#ef0404;
 	height:6px;
 	margin-top:-3px;
 }
@@ -3040,7 +3040,7 @@ footer.fixed-footer .footer-social li a:hover {
 	left:0;
 	width:80px;
 	height:8px;
-    background:#fb9c2b;
+    background:#ef0404;
 }
 .process-box2:before {
 	content:'';
